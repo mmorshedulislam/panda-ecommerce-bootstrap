@@ -1,0 +1,15 @@
+.carousel, .subscribe{
+    background-color: #fceae8;
+}
+.carousel h2{
+    color: #FF136F;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+.buy-btn{
+    background: linear-gradient(to bottom, #FF589B, #FF136F);
+    padding: .5rem 1.5rem;
+}
+.categories-item img{
+    width: 100px;
+}
