@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Panda Ecommerce</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -12,7 +13,7 @@
     <header>
       <div class="container">
         <!-- Navbar start -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="images/logo.png" alt="">
@@ -39,13 +40,14 @@
           </div>
         </nav>
         <!-- Navbar ends -->
+
         <!-- Slider start -->
         <div id="carouselExampleControls" class="carousel slide mt-3 border rounded-3 p-5" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row">
+              <div class="row gy-md-0 gy-3">
                 <div class="col-md-7 d-flex align-items-center">
-                  <div class="">
+                  <div class="text-md-start text-center">
                     <h1>Cool Dude Headphone</h1>
                     <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
                     <h2>$420</h2>
@@ -58,9 +60,9 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="row">
+              <div class="row gy-md-0 gy-3">
                 <div class="col-md-7 d-flex align-items-center">
-                  <div class="">
+                  <div class="text-md-start text-center">
                     <h1>Cool Dude Headphone</h1>
                     <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
                     <h2>$420</h2>
@@ -73,9 +75,9 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="row">
+              <div class="row gy-md-0 gy-3">
                 <div class="col-md-7 d-flex align-items-center">
-                  <div class="">
+                  <div class="text-md-start text-center">
                     <h1>Cool Dude Headphone</h1>
                     <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
                     <h2>$420</h2>
@@ -104,7 +106,7 @@
     <!-- Categories -->
     <section id="categories-area" class="py-5">
       <div class="container">
-        <div class="row">
+        <div class="row gy-3 gy-md-0">
           <div class="col-md-4">
             <div class="categories-item d-flex justify-content-around align-items-center bg-warning py-3 rounded-3">
               <h2 class="h1 fw-bold text-light">Shoes</h2>
@@ -132,7 +134,7 @@
     <section id="shoes-area">
       <div class="container">
         <h3 class="fw-bold">Shoes</h3>
-        <div class="row">
+        <div class="row gy-3 gy-md-0">
           <div class="col-md-4">
             <div class="card shadow">
               <div class="card-body">
@@ -175,7 +177,7 @@
     <section id="backpack-area" class="py-5">
       <div class="container">
         <h3 class="fw-bold">Backpack</h3>
-        <div class="row">
+        <div class="row gy-3 gy-md-0">
           <div class="col-md-4">
             <div class="card shadow">
               <div class="card-body">
@@ -217,7 +219,7 @@
     <section id="subscribe-area" class="mt-5">
       <div class="container subscribe py-5 border rounded-3">
         <div class="row">
-          <div class="offset-md-4 col-md-4">
+          <div class="offset-md-3 col-md-6 offset-2 col-8">
             <h2>LET'S STAY IN TOUCH</h2>
             <p>Get updates on sales, specials and more</p>
             <input type="text" class="form-control">
